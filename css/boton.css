@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;}
+    body{
+        background-color: blue;
+    }
+
+
+        .botao{
+         border-radius: 12px;
+         background: rgb(255, 255, 255);
+         height: 50px;
+         width: 100px;
+         display: flex;
+         position: fixed;
+         align-items: center;
+         color: inherit;
+         left: 88%;
+         font-size: 20px;
+
+        }
+        a{
+            color:inherit;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .botao a:hover{
+            background: black;
+            color: aliceblue;
+        }

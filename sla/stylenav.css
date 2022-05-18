@@ -1,0 +1,63 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url('../img/medlar.jpg');
+    background-position-x: 300px;
+    background-position-y: 100px;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li {
+    padding-top: 30%;
+    list-style: none;
+}
+
+nav {
+    margin-left: auto;
+    background-color: royalblue;
+    width: 450px;
+    height: 100%;
+}
+
+a{
+    display: block;
+    padding: 20px;
+}
+
+a:hover{
+    background-color: salmon;
+    color: black;
+    border-bottom: skyblue;
+}
+
+.menu a {
+    text-align: center;
+    margin: 0 16px;
+    font-weight: 600;
+    transition: 00.4s;
+    border-radius: 99px;
+}
+
+
+/*////*/
+
+h1 {
+    padding-top: 30px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}

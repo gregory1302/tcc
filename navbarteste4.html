@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navteste4.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxs-capsule' ></i>
+                <div class="logo_name">MedLar</div>
+            </div>
+            <i class="bx bx-menu" id="bnt" ></i>
+        </div>
+        <ul class="nav_list">
+           <!-- <li>
+
+                    <i class='bx bx-search'></i>
+                <input type="text" placeholder="Searching">
+
+                 <span class="tooltip">Dashboard</span> 
+            </li> -->         <li>
+                <a href="listaidoso.php">
+                    <i class='bx bxs-user'></i>
+                <span class="links_name">Lista Idosos</span>
+                </a>
+                <span class="tooltip">Lista</span>
+            </li>            <li>
+                <a href="cadastroidoso.html">
+                    <i class='bx bx-user-plus' ></i>
+                <span class="links_name">Cadastro Idosos</span>
+                </a>
+                <span class="tooltip">Cadastro de Idosos</span>
+            </li>            <li>
+                <a href="cadastromedgener.html">
+                    <i class='bx bx-hard-hat'></i>
+                <span class="links_name">Cadastro Medicamentos</span>
+                </a>
+                <span class="tooltip">Cadastro Medicamentos</span>
+            </li>            <li>
+                <a href="#">
+                    <i class='bx bx-bowl-hot'></i>
+                <span class="links_name">Remedios</span>
+                </a>
+                <span class="tooltip">Remedios</span>
+            </li>            <li>
+                <a href="#">
+                    <i class='bx bx-qr-scan'></i>                <span class="links_name">Order</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>            <li>
+                <a href="#">
+                    <i class='bx bxs-store-alt'></i>                <span class="links_name">Saved</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>            <li>
+                <a href="#">
+                    <i class='bx bx-book-content'></i>
+                <span class="links_name">Settings</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                   <img src="img/medlar.jpg" alt=""></div>
+                   <a href="login.php">
+                <i class='bx bx-log-out' id="log_out"></i></a>
+            </div>
+        </div>
+
+        <script>
+            let bnt = document.querySelector("#bnt");
+            let sidebar = document.querySelector(".sidebar");
+
+            bnt.onclick = function() {
+                sidebar.classList.toggle("active");
+            }
+
+        </script>
+    </div>
+</body>
+</html>

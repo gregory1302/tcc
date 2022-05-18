@@ -1,0 +1,35 @@
+
+body {
+    background-image: url('../img/medlar.jpg');
+    background-size: cover;
+    background-position-x: 700px;
+    background-position-y: 50px;
+   
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+a:hover {
+    color: royalblue;
+    display: block;
+
+}
+#lista-conteiner {
+    background-color: #fff;
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: 100px;
+    padding: 20px 30px;
+    overflow:auto; 
+    margin-top: 10vh;
+    border-radius: 10px;
+    
+}
+a {
+font-weight: bold;
+cursor: pointer;
+}
+td {
+    width: 1000;
+}

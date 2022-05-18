@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+  }
+
+  body {
+    background-image: url('../img/medlar.jpg');
+    background-size: cover;
+    background-position-x: 850px;
+    background-position-y: 100px;
+   
+}
+a:hover {
+    color: royalblue;
+}
+#cad-conteiner {
+    background-color: #fff;
+    width: 600px;
+    height: 550px;
+    margin-right: auto;
+    padding: 50px 70px;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+#cad-conteiners {
+    
+    height: 350px;
+    background-color: #fff;
+    width: 550px;
+    margin-right: auto;
+    padding: 10px 30px;
+    margin-top: 25vh;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+#cad-conteiner3 {
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    margin-right: auto;
+    padding: 50px 70px;
+    margin-top: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+label{
+    
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 10px;
+}
+input[type="submit"] {
+    margin-top: 15px;
+    background:    #0000ff;
+border-radius: 12px;
+padding:       10px 35px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 26px/1 "Open Sans", sans-serif;
+text-align:    center;
+     }
+     form#1 {
+        margin-top: -10px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+     }/*arrumar id dos formularios*/
+     form#2 {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+     }
